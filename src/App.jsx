@@ -77,10 +77,10 @@ function PageContent() {
       Son reaches its height,
       And shine so bright.
     </Text>
-      <mesh position={[0, -5, 0]}>
+      {/* <mesh position={[0, -5, 0]}>
         <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial color="blue" />
-      </mesh>
+      </mesh> */}
       </>
 
       {/* Page 3 */}
@@ -103,10 +103,10 @@ function PageContent() {
       It&apos;s the  time for moon to rise,
       And I know you&apos;re wise.
     </Text>
-      <mesh position={[0, -10, 0]}>
+      {/* <mesh position={[0, -10, 0]}>
         <coneGeometry args={[1, 2, 32]} />
         <meshStandardMaterial color="green" />
-      </mesh>
+      </mesh> */}
       </>
     </>
   );
